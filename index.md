@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Week 1
 
-You can use the [editor on GitHub](https://github.com/sgiangreco/sgiangreco.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I have begun reading through _Stochastic Local Search - Foundations and Applications_ by Hoos and Stuetzle.  
+It introduced the propositional satisfiability (SAT) and Traveling Salesman problem (TSP) as prototypical combinatorial problems.  
+I have also begun reading about different basic iterative methods for effectively exploring a search space and how they compare to each other.
+Examples are best improvement, first improvement, variable neighborhood descent (VND), and variable depth search (VDS).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sgiangreco/sgiangreco.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Next week, I will continue reading through the book and attempt to start writing code for some of the basic methods I encounter so as to help ferment my understanding.
+I will also attend some presentations on high performance computing at our university's Research and Technology Development conference.
