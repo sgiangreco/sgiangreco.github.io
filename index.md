@@ -18,7 +18,7 @@
 
   I have continued expanding on the literature I've reviewed in SAT solvers.  Of particular importance is the master's thesis by Alex Bertels, whose work inspired this research project.  The paper compares synchronous and asynchronous parallelization methods for evolving hyper-heuristics and finds that the latter have significantly greater performance.  The paper also introduces two versions of the Automated Design of SAT Solvers employing Evolutionary Computation (ADSSEC) framework, an implementation of evolutionary algorithms on improving hyper-heuristics.  The later version was able to outperform top CDLCL solvers and yielded the discovery that having fewer decisions and conflict literals does not necessarily increase the performance of the solver.  The work done here serves as a major jumping-off point for our project, and a thorough understanding of this work may prove instrumental in further developing hyper-heurstics.
 
-  It was suggested at our group meeting that I begin reading the book _Stochastic Local Search - Foundations and Applications_ by Hoos and Stuetzle to gain a greater understanding of how local searches are selected and performed in combinatorial problems.  My goal next week will be to focus on reading the book and familiarizing myself with local search algorithms.
+  It was suggested at our group meeting that I begin reading the book [_Stochastic Local Search - Foundations and Applications_ by Hoos and Stuetzle](http://www.sls-book.net/) to gain a greater understanding of how local searches are selected and performed in combinatorial problems.  My goal next week will be to focus on reading the book and familiarizing myself with local search algorithms.
 
 
 ## Week 2 - 8/26/18
