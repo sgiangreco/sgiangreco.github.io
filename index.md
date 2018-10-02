@@ -1,7 +1,9 @@
 ## Week 6 - 9/23/18
 
   I spent most of this week studying for a couple of exams and preparing for my university's semi-annual career fair.  I was therefore unable to spend much time creating prototypes of algorithms I had learned about in the previous week.  However, I did manage to glance through much of chapter three in _Stochastic Local Search_ and found that it mostly discusses the modeling of local searches with generalized local search machines (GLSMs).  I am not quite sure at this time how useful it will be to know how the algorithms work from the formal perspective of finite state machines, so I will try to read the chapter more in depth when I get a chance.
+  
   I was able to create a presentation on the different stochastic local search algorithms from chapter 2 and deliver my findings to my research team.  The slideshow can be found [here](https://github.com/sgiangreco/Intro-to-Stochastic-Local-Search).
+  
   For this week, my main focus will be on creating a functioning SAT iterative improvement algorithm.  I expect that, once I am able to write that, the difficulty in crafting more sophisticated methods will greatly reduce, at least in terms of ensuring the SAT problem's information is properly parsed and evaluated.  As I move on to more complex non-population based methods, the true challenge would then lie in constructing and implementing the search algorithms and pertubation mechanisms.
 
 ## Week 5 - 9/16/18
