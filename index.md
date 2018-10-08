@@ -1,3 +1,6 @@
+## Week 7 - 9/30/18
+  I worked on developing the SAT solver prototype for the iterative improvement algorithm.  Unfortunately, progress is slow, but I am hoping that I can put in more hours in this following week to get the program running by next week.
+
 ## Week 6 - 9/23/18
 
   I spent most of this week studying for a couple of exams and preparing for my university's semi-annual career fair.  I was therefore unable to spend much time creating prototypes of algorithms I had learned about in the previous week.  However, I did manage to glance through much of chapter three in _Stochastic Local Search_ and found that it mostly discusses the modeling of local searches with generalized local search machines (GLSMs).  I am not quite sure at this time how useful it will be to know how the algorithms work from the formal perspective of finite state machines, so I will try to read the chapter more in depth when I get a chance.
