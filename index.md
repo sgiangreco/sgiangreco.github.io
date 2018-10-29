@@ -1,3 +1,6 @@
+## Week 10 - 10/27/18
+Here is a [link](https://github.com/sgiangreco/probabilistic-iterative-improvement/blob/master/SAT%20-%20Probabilistic%20Iterative%20Improvement.ipynb) to the Jupyter notebook for the probabilistic iterative improvement method.
+
 ## Week 9 - 10/20/18
   On Monday, I presented my first iterative improvement SAT solver using the dataset found in the same repository.  I have also continued working on the probabilistic iterative improvement solver and am attempting to ensure the solvers work for larger amounts of data.  An interactive interface that takes in solver parameters and filenames for datasets will also be added to both solvers.
 
