@@ -1,39 +1,38 @@
 # Week 12 - 11/10/18
 ## DPLL solver
-This week I have begun creating a conflict-driven clause learning (CDCL) solver using the [Davis-Putnam-Logemann-Loveland (DPLL) algorithm](https://dl.acm.org/citation.cfm?id=368557).  
-This method is essentially of a constructive search comprised of unit propogation followed by some sort of variable selection.  
+This week I have begun creating a conflict-driven clause learning (CDCL) solver using the [Davis-Putnam-Logemann-Loveland (DPLL) algorithm](https://dl.acm.org/citation.cfm?id=368557). 
+This method is essentially of a constructive search comprised of unit propogation followed by some sort of variable selection. 
 Unlike the other solvers I have encountered up to this point, this method iteratively replaces clauses with their resolvents after variable assignments, causing satisfaction to occur when all clauses become empty.
 
-I had original set out to construct the [Davis-Putnam (DP) algorithm](https://dl.acm.org/citation.cfm?coll=GUIDE&dl=GUIDE&id=321034), but it does not appear to contain any way to backtrack out of conflicts.  
-Additionally, both methods seem to lack a selection process for the variable assignment after unit propogation options have been exhausted.  
-I plan to implement a random walk initially, but I am curious to see how more sophisticated stochastic local search methods will fare when coupled with this method.  
+I had original set out to construct the [Davis-Putnam (DP) algorithm](https://dl.acm.org/citation.cfm?coll=GUIDE&dl=GUIDE&id=321034), but it does not appear to contain any way to backtrack out of conflicts. 
+Additionally, both methods seem to lack a selection process for the variable assignment after unit propogation options have been exhausted. 
+I plan to implement a random walk initially, but I am curious to see how more sophisticated stochastic local search methods will fare when coupled with this method. 
 Changing the evaluation functions to focus on aiding unit propogation may also yield interesting results.
 
-With the introduction of backtracking to a constructive search algorithm, a complete search can be created.  
-However, that may come with a prohibitively high performance cost (particularly on problems with a large number of variables).  
+With the introduction of backtracking to a constructive search algorithm, a complete search can be created. 
+However, that may come with a prohibitively high performance cost (particularly on problems with a large number of variables). 
 I am not yet sure how to best proceed with tackling this issue, so I will at least for the moment use a complete search with smaller data sets.  
 
 ## SAT Graphing
-To assist comprehension of differences between SAT problem classes, I will create graphs of various problem instances.  
-By observing unique characteristics separating the problem classes, I hope to better identify primitives that could significantly affect heuristic selections.  
+To assist comprehension of differences between SAT problem classes, I will create graphs of various problem instances. 
+By observing unique characteristics separating the problem classes, I hope to better identify primitives that could significantly affect heuristic selections. 
 I will be using [SATGraf](https://bitbucket.org/znewsham/satgraf/) for this purpose.
 
 # Week 11 - 11/3/18
-The focus of this week has shifted to reading about the primitives that comprise most SAT solver algorithms.  
-I began by reading through more of chapter 6 in the _Stochastic Local Search_ book to better familiarize myself with many of the methods discussed in comteporary research.  
+The focus of this week has shifted to reading about the primitives that comprise most SAT solver algorithms. 
+I began by reading through more of chapter 6 in the _Stochastic Local Search_ book to better familiarize myself with many of the methods discussed in comteporary research. 
 It introduced me to the WalkSAT architecture, which differentiates itself immediately from GSAT with its evaluation function.
-For solver algorithms of this variety, the evaluation function contains two steps.  
-First, an unsatisfied clause _c_ under the current assignment _a_ is selected.  
-Second, a variable corresponding to a literal in _c_ is flipped, causing the _c_ to become satisfied (for each clause is composed of disjunctions).  
+For solver algorithms of this variety, the evaluation function contains two steps. 
+First, an unsatisfied clause _c_ under the current assignment _a_ is selected. 
+Second, a variable corresponding to a literal in _c_ is flipped, causing the _c_ to become satisfied (for each clause is composed of disjunctions). 
 The mechanism by which this variable is selected varies with each type of WalkSAT algorithm.
 
-I then began reading some research papers by Alex Fukunaga.  
-The first one, [_Automated Discovery of Local Search Heuristics for Satisfiability Testing_](https://ieeexplore.ieee.org/abstract/document/6792408), discusses how many of the algorithms I have so far encountered in my readings can be considered composites of basic heuristics called primitives.  
+I then began reading some research papers by Alex Fukunaga. 
+The first one, [_Automated Discovery of Local Search Heuristics for Satisfiability Testing_](https://ieeexplore.ieee.org/abstract/document/6792408), discusses how many of the algorithms I have so far encountered in my readings can be considered composites of basic heuristics called primitives. 
 Identifying and properly combining these primitives lies at the heart of our project's research, so a deep understanding of this work may prove vital to our progress.
 
 
 # Week 10 - 10/27/18
-I have constructed a tabu search SAT solver that uses the 
 Here is a [link](https://github.com/sgiangreco/probabilistic-iterative-improvement/blob/master/SAT%20-%20Probabilistic%20Iterative%20Improvement.ipynb) to the Jupyter notebook for the probabilistic iterative improvement method.
 
 # Week 9 - 10/20/18
