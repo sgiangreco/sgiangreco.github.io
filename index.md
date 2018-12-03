@@ -1,3 +1,18 @@
+# Week 14 - 11/25/18
+I have completed most of the DPLL algorithm.
+All that remains is entering in which method will be used for adding variables to the assignment after unit propogation and pure literal elimination steps have been exhausted.
+Most sources imply the use of a complete search, but that would be prohibitively expensive computationally to include in a running model.
+However, the focus of the project is now expected to shift towards understanding heuristic primitives, so finishing this has taken a lower priority.
+
+For next week, I am to come up with additional primitives that can be added to existing known primitives for search methods.
+
+# Week 13 - 11/18/18
+I am continuing to work on the DPLL algorithm.
+I have succeeded in coming up with how I will handle the implementation and have settled on a recursive approach.
+This will simplify backtracking for situations in which an invalid assignment is created, an eventuality that seems inevitable when considering the limitations of unit propogation and pure literal elimination.
+
+My work for this coming week will consist of completing the algorithm and shifting gears to work on heuristic primitives.
+
 # Week 12 - 11/10/18
 ## DPLL solver
 This week I have begun creating a conflict-driven clause learning (CDCL) solver using the [Davis-Putnam-Logemann-Loveland (DPLL) algorithm](https://dl.acm.org/citation.cfm?id=368557). 
