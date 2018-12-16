@@ -1,3 +1,22 @@
+# Week 16 - 12/9/18
+I have examined the code core to our project and begun running some tests.
+Curiously, I initially ran into some problems executing the code.
+My version claimed to have errors due to lack of superuser status when attempting to create a directory.
+However, Rachel was running the code from a different project branch and had not been required to execute it with superuser permissions in order to have it run properly.
+Nevertheless, I executed the code with elevated credentials but was greeted with a warning message that by running the code as a superuser, I could potentially wreck my operating system.
+After collaborating with Rachel for some time, we discovered that no such errors occur when using the same branch she was running.
+What is soo remarkable about this is that her version had no differences from the branch I was in, so the cause of the difference in code executability remains a mystery to us.
+
+Next week I have finals, so I do not know how much progress I will be able to achieve.
+Nevertheless, the next step is to see if I can make some discoveries by manipulating heuristics manually.
+
+# Week 15 - 12/2/18
+Over the course of this week, I have increased my familiarity with the Glucose SAT solver.
+Its code is used in our project, so understanding how it runs will be helpful in piecing functionality of our project together.
+Additionally, Rachel and I filled out our mid-year report and have submitted it for review.
+
+Next week, I will focus on learning the code written by my predecessors in the project and learn how to tweak heuristics.
+
 # Week 14 - 11/25/18
 I have completed most of the DPLL algorithm.
 All that remains is entering in which method will be used for adding variables to the assignment after unit propogation and pure literal elimination steps have been exhausted.
